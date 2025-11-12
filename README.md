@@ -274,7 +274,7 @@ For example:
 
 This is really a nice to have. We could imagine a scenario where we want a test and production database. And we need to dynamically connect to the test or production database using PG8000 under certain circumstances.
 
-E.g. if I run my tests, I want to connect to the test database. But if I run the 'seed' script myself I want it to interact with my prod data.
+E.g. if I run my tests, `I want to connect to the test database. But if I run the 'seed' script myself I want it to interact with my prod data.
 
 For this kind of "context-switching" we can use environment variables to help us.
 
